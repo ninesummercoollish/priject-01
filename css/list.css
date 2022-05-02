@@ -1,0 +1,145 @@
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+ .sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 2px solid #c81523;
+    padding-left: 14px;
+    padding-top: 3px;
+}
+.nav1 {
+    margin-top: 40px;
+    height: 30px; 
+    /* background-color: pink; */
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul {
+    padding-left: 30px; 
+}
+.sk_list ul li {
+    float: left;
+    margin-right: 56px;
+    font-size: 16px;
+    color: #000;
+}
+.sk_list ul li a {
+    color: #000; 
+    font-weight: 700; 
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+    margin-top: 4px; 
+}
+
+.sk_con ul li:nth-of-type(-n+8) {
+    margin-right: 52px;
+}
+.sk_con ul li:last-of-type::after {
+    content: '\e906';
+    font-family: 'icomoon';
+    margin-left: 2px;
+}
+.sk_bd ul {
+    margin-top: 25px;
+}
+.sk_bd ul li {
+    float: left; 
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+    /* background-color: pink;  */
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd ul li:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li img {
+    width: 100%;
+    height: 283px; 
+}
+.sk_bd ul li p {
+    padding: 16px 12px 6px 12px;
+    font-size: 14px;
+    color: #666; 
+}
+.sk_bd ul li .jiage {
+    margin-left: 12px;
+    margin-bottom: 5px;  
+}
+.sk_bd ul li .jiage span:first-child {
+    font-size: 22px;
+    color: #e60012;
+}
+.sk_bd ul li .jiage span:last-child {
+    text-decoration: line-through;
+}
+.sk_bd ul li .jd0 {
+    margin-bottom: 6px;
+}
+.sk_bd ul li .jindu {
+    /* float: left; */
+    display: inline-block;
+    margin: 0 13px;
+    width: 130px;
+    height: 10px;
+    border-radius: 5px; 
+    border: 1px solid #ed282e; 
+}
+.sk_bd ul li .jindu .jd1 {
+    width: 87%;
+    height: 9px; 
+    background-color: #ed282e; 
+    border-radius: 4px;
+}
+.sk_bd ul li .jd0::before {
+    content: '已售87%';
+    padding-left: 12px;
+}
+.sk_bd ul li .jd0::after {
+    content: '剩余29件';
+}
+.sk_bd ul li .foot1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff; 
+    background-color: #b1191a;
+}
+.mod_copyright {
+    text-align: center;
+}
+.links {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.copyright {
+    line-height: 20px;
+}
+
+
+
+
+
+
+

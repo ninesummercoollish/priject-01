@@ -1,0 +1,125 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 84px; 
+    border-bottom: 2px solid #b1191a;
+}
+.header img {
+    margin-top: 20px;
+}
+.registerareas {
+    height: 520px; 
+    border: 1px solid #dfdfdf; 
+}
+.register_hd {
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    padding: 0 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+.register_hd span:first-of-type {
+    float: left;
+    font-size: 18px;
+    color: #333;
+}
+.register_hd span:last-of-type {
+    float:  right;
+    font-size: 14px;
+    color: #333;
+}
+.register_hd span:last-of-type a {
+    color: #cd474e;
+}
+.form {
+    width: 600px;
+    margin: 54px auto 0;
+}
+.form ul li {
+    margin-bottom: 20px;
+}
+.form label {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+.form  li:nth-of-type(-n+5) input {
+    width: 240px;
+    height: 35px; 
+    border: 1px solid #999;
+}
+.form .error {
+    color: #df3033;
+}
+.form .error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../upload/error_03.png);
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.form .success {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../upload/success.png);  
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.safe {
+    padding-left: 140px;
+}
+.safe i {
+    padding: 0 12px;
+}
+.safe .one {
+    margin-left: 10px;
+    color: #fff; 
+    background-color: #de1111;
+}
+.safe .two {
+    color: #fff;
+    background-color: #40b83f;
+}
+.safe .three {
+    color: #fff; 
+    background-color: #f79100;
+}
+.agree {
+    margin: 44px 0 50px 0;
+}
+.agree input {
+    vertical-align: middle;
+    margin-left: 74px; 
+    margin-right: 14px;
+}
+.agree a {
+    margin-left: 5px;
+    color: #1ba1e6;
+}
+.submit {
+    width: 200px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    background-color: #c81623;
+    color: #fff;
+    margin-left: 72px;
+    margin-top: 20px;
+}
+.mod_copyright {
+    text-align: center;
+}
+.links {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.copyright {
+    line-height: 20px;
+}
+
